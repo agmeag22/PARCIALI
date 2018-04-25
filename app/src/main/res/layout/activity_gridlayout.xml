@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gridlayout"
+    android:background="#e2000000"
+    >
+
+    <ImageButton
+        android:id="@+id/paolumu"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:src="@drawable/paolumu"
+        android:scaleType="fitCenter"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:background="#00ffffff"
+        android:padding="10dp"
+        />
+    <ImageButton
+        android:id="@+id/bazelgeuse"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:src="@drawable/bazel2"
+        android:scaleType="fitCenter"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:background="#00ffffff"
+        android:padding="10dp"
+        />
+    <ImageButton
+        android:id="@+id/nergigante"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:src="@drawable/nergigante"
+        android:scaleType="fitCenter"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:background="#00ffffff"
+        android:padding="10dp"/>
+    <ImageButton
+        android:id="@+id/xeno_jiiva"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:src="@drawable/xeno"
+        android:scaleType="fitCenter"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:background="#00ffffff"
+        android:padding="10dp" />
+
+
+</GridLayout>
